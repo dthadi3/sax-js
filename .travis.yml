@@ -1,9 +1,12 @@
+arch:
+  - amd64
+  - ppc64le
 language: node_js
 sudo: false
+#updated latest node_js versions & Removed old versions 4,6,8
 node_js:
-  - 8
-  - 6
-  - 4
+  - "15"
+  - "node" 
 notifications:
   email: false
 cache:
